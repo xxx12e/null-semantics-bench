@@ -1,0 +1,105 @@
+{
+  "runs": {
+    "pilot_sql_v1": {
+      "batch_ids": [
+        "msgbatch_01A14vFZ2izgLu17sQF9fWF9"
+      ],
+      "n": 98,
+      "projected_usd": 1.7528,
+      "submitted": "2026-11-17T11:53:20.999330+00:00",
+      "actual_usd": 0.3215,
+      "fetched": "2026-11-17T12:02:33.787929+00:00"
+    },
+    "pilot_sql_p2": {
+      "batch_ids": [
+        "msgbatch_019zTrHNVEQT6NJVSJ4usbZq"
+      ],
+      "n": 192,
+      "projected_usd": 2.1678,
+      "submitted": "2026-11-17T12:16:47.031869+00:00",
+      "actual_usd": 2.2099,
+      "fetched": "restored from results.jsonl"
+    },
+    "pilot_write_v1": {
+      "batch_ids": [
+        "msgbatch_01GQ9YhE2rb6K2YifjULCLF5"
+      ],
+      "n": 144,
+      "projected_usd": 1.6259,
+      "submitted": "2026-11-17T12:17:46.450717+00:00",
+      "actual_usd": 0.1729,
+      "fetched": "2026-11-17T12:20:55.827647+00:00"
+    },
+    "pilot_write_v2": {
+      "batch_ids": [
+        "msgbatch_011dDiFzfpRZ6QSeb69cKb18"
+      ],
+      "n": 240,
+      "projected_usd": 2.7098,
+      "submitted": "2026-11-17T12:24:18.733304+00:00",
+      "actual_usd": 0.4054,
+      "fetched": "2026-11-17T12:27:27.599357+00:00"
+    },
+    "pilot_write_v3": {
+      "batch_ids": [
+        "msgbatch_018ud7sFCejLgRwWbnanh6r3"
+      ],
+      "n": 192,
+      "projected_usd": 2.1678,
+      "submitted": "2026-11-17T12:28:43.008794+00:00",
+      "actual_usd": 0.3556,
+      "fetched": "2026-11-17T12:32:11.332674+00:00"
+    },
+    "formal_v1": {
+      "batch_ids": [
+        "msgbatch_01HwnPDxZta73xA412PhtFEm"
+      ],
+      "n": 2504,
+      "projected_usd": 33.549,
+      "submitted": "2026-11-17T12:42:13.270764+00:00",
+      "actual_usd": 23.5369,
+      "fetched": "2026-11-17T12:50:24.459892+00:00"
+    },
+    "formal_a1_fable52": {
+      "batch_ids": [
+        "msgbatch_01Udx4gywyZVcs3yvBHd5ddY"
+      ],
+      "n": 488,
+      "projected_usd": 15.5184,
+      "submitted": "2026-11-18T02:08:55.817592+00:00",
+      "actual_usd": 13.1722,
+      "fetched": "2026-11-18T02:15:05.337132+00:00"
+    },
+    "pilot_a2_p3": {
+      "batch_ids": [
+        "msgbatch_0151sxXz3o6W3S3SKGVxKBxt"
+      ],
+      "n": 32,
+      "projected_usd": 1.0176,
+      "submitted": "2026-11-18T03:00:38.367830+00:00",
+      "actual_usd": 5.7527,
+      "fetched": "2026-11-18T03:05:46.698728+00:00"
+    },
+    "pilot_a2_low": {
+      "batch_ids": [
+        "msgbatch_01MqMEwUBKZQ4dpFCgL8yfnK"
+      ],
+      "n": 32,
+      "projected_usd": 1.0176,
+      "submitted": "2026-11-18T03:06:34.796103+00:00",
+      "actual_usd": 1.3281,
+      "fetched": "2026-11-18T03:14:44.292643+00:00"
+    },
+    "pilot_trap1": {
+      "batch_ids": [
+        "msgbatch_01BDoYMxhSo9dtS2oMNw5Zwo"
+      ],
+      "n": 128,
+      "projected_usd": 2.1015,
+      "submitted": "2026-11-18T03:22:44.600970+00:00",
+      "actual_usd": 0.7058,
+      "fetched": "2026-11-18T03:24:52.667800+00:00"
+    }
+  },
+  "total_usd": 47.961
+}

@@ -1,0 +1,33 @@
+{
+  "name": "pilot_trap1",
+  "pool": "pool/trap_p1_gold.jsonl",
+  "projection_margin": 1.3,
+  "arms": [
+    {
+      "name": "T",
+      "families": [
+        "lj",
+        "ni"
+      ],
+      "splits": [
+        "S1",
+        "S2",
+        "SX"
+      ],
+      "offset": 0,
+      "n": 8,
+      "efforts": [
+        "medium"
+      ],
+      "conditions": [
+        "plain"
+      ],
+      "models": [
+        "claude-fable-5-2",
+        "claude-opus-5-5",
+        "claude-sonnet-5-5",
+        "claude-haiku-5-5"
+      ]
+    }
+  ]
+}

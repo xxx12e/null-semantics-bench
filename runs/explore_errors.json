@@ -1,0 +1,180 @@
+{
+ "nullcmp|where|absorbing": {
+  "1": [
+   1,
+   156
+  ],
+  "2-3": [
+   5,
+   297
+  ],
+  "4-7": [
+   12,
+   225
+  ],
+  "8+": [
+   30,
+   242
+  ]
+ },
+ "nullcmp|where|unknown": {
+  "1": [
+   0,
+   60
+  ],
+  "2-3": [
+   0,
+   341
+  ],
+  "4-7": [
+   0,
+   354
+  ],
+  "8+": [
+   1,
+   163
+  ]
+ },
+ "nullcmp_by_size|where|d32r6|absorbing": {
+  "1": [
+   0,
+   12
+  ],
+  "2-3": [
+   2,
+   28
+  ],
+  "4-7": [
+   10,
+   140
+  ],
+  "8+": [
+   11,
+   140
+  ]
+ },
+ "nullcmp_by_size|where|d64r6|absorbing": {
+  "2-3": [
+   1,
+   9
+  ],
+  "4-7": [
+   0,
+   9
+  ],
+  "8+": [
+   19,
+   102
+  ]
+ },
+ "nullcmp_by_size|where|d8r12|absorbing": {
+  "1": [
+   1,
+   144
+  ],
+  "2-3": [
+   2,
+   260
+  ],
+  "4-7": [
+   2,
+   76
+  ]
+ },
+ "nullcmp|check|absorbing": {
+  "4-7": [
+   5,
+   96
+  ],
+  "8+": [
+   36,
+   224
+  ]
+ },
+ "nullcmp|check|unknown": {
+  "2-3": [
+   0,
+   48
+  ],
+  "4-7": [
+   0,
+   160
+  ],
+  "8+": [
+   0,
+   112
+  ]
+ },
+ "nullcmp_by_size|check|d32r6|absorbing": {
+  "4-7": [
+   5,
+   96
+  ],
+  "8+": [
+   36,
+   224
+  ]
+ },
+ "tokens|claude-haiku-5-5|where": {
+  "wrong_n": 5,
+  "wrong_median": 22079,
+  "right_n": 90,
+  "right_median": 19464
+ },
+ "tokens|claude-haiku-5-5|check": {
+  "wrong_n": 9,
+  "wrong_median": 23975,
+  "right_n": 31,
+  "right_median": 24274
+ },
+ "tokens|claude-sonnet-5-5|where": {
+  "wrong_n": 17,
+  "wrong_median": 3322,
+  "right_n": 83,
+  "right_median": 1295
+ },
+ "tokens|claude-sonnet-5-5|check": {
+  "wrong_n": 14,
+  "wrong_median": 2621,
+  "right_n": 26,
+  "right_median": 2151
+ },
+ "tokens|claude-opus-5-5|where": {
+  "wrong_n": 11,
+  "wrong_median": 3041,
+  "right_n": 89,
+  "right_median": 1875
+ },
+ "tokens|claude-opus-5-5|check": {
+  "wrong_n": 7,
+  "wrong_median": 2842,
+  "right_n": 33,
+  "right_median": 2535
+ },
+ "tokens|claude-fable-5-2|where": {
+  "wrong_n": 2,
+  "wrong_median": 3137,
+  "right_n": 98,
+  "right_median": 1617
+ },
+ "tokens|claude-fable-5-2|check": {
+  "wrong_n": 0,
+  "wrong_median": null,
+  "right_n": 40,
+  "right_median": 2057
+ },
+ "concentration|where": {
+  "S2_items": 100,
+  "items_with_abs_error": 27,
+  "items_wrong_for_2plus_models": 3,
+  "abs_errors": 48,
+  "top5_items_share": 0.31
+ },
+ "concentration|check": {
+  "S2_items": 40,
+  "items_with_abs_error": 17,
+  "items_wrong_for_2plus_models": 4,
+  "abs_errors": 41,
+  "top5_items_share": 0.46
+ }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "pilot_sql_p2",
+  "pool": "pool/sql_pool_p2_gold.jsonl",
+  "projection_margin": 1.3,
+  "arms": [
+    {
+      "name": "p2",
+      "families": [
+        "where",
+        "check"
+      ],
+      "splits": [
+        "S0",
+        "S1",
+        "S2"
+      ],
+      "offset": 0,
+      "n": 2,
+      "efforts": [
+        "low",
+        "medium"
+      ],
+      "models": [
+        "claude-haiku-5-5",
+        "claude-sonnet-5-5",
+        "claude-opus-5-5"
+      ]
+    }
+  ]
+}

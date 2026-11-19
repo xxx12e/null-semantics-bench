@@ -1,0 +1,24 @@
+{
+  "note": "Three preregistered files were edited after locking to remove internal remarks before release. Each edit replaces one line that is not part of the design, the code path, or the analysis. The locked hashes in PREREG_VLDB.sha256 and PREREG_VLDB_A1.sha256 are left as they were and refer to the unedited originals, which the authors keep and will provide on request.",
+  "edited": "2026-11-19",
+  "files": {
+    "PREREG_VLDB_A1.md": {
+      "locked_sha256": "cf017e59f589ffcfbfe6baba6071bcf7cc4e5c92fa0fe395803c4167f2bdbbd7",
+      "released_sha256": "ffee38f3ca758fa71284ef2157af559b35ec9909d8b5c6692cda933442d159a1",
+      "lines": [8],
+      "change": "an internal sign-off remark at the end of the line was replaced by the date of the decision; the rest of the line is unchanged"
+    },
+    "locked_v1/sql_eval.py": {
+      "locked_sha256": "b23f32e5624b5f1245ccadc1ee0fbe2fec93a9f67f090ebd78fb3d831fdc31d5",
+      "released_sha256": "1c865df69261a8e0aa0a9c27c14db03a3a11bdedb7c1bdec2f5ee81291a7565a",
+      "lines": [30],
+      "change": "the trailing comment of CAP_USD (funding remark) was replaced by a neutral comment; the value 45.0 is unchanged"
+    },
+    "locked_a1/sql_eval.py": {
+      "locked_sha256": "cf2f388bc8f668ac30eb2d91e3282e1d14c301527224d086387453e8771a6f4b",
+      "released_sha256": "0dc1a22f55ccea43467ee8e7152b0f18d1b5f183adcbc535c342c1dd08f59849",
+      "lines": [30],
+      "change": "the trailing comment of CAP_USD (funding remark) was replaced by a neutral comment; the value 45.0 is unchanged"
+    }
+  }
+}

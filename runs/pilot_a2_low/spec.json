@@ -1,0 +1,69 @@
+{
+  "name": "pilot_a2_low",
+  "pool": "pool/sql_pool_p2_gold.jsonl",
+  "projection_margin": 1.3,
+  "arms": [
+    {
+      "name": "PL",
+      "families": [
+        "where"
+      ],
+      "splits": [
+        "S1",
+        "S2"
+      ],
+      "cells": [
+        [
+          32,
+          6
+        ],
+        [
+          64,
+          6
+        ],
+        [
+          8,
+          24
+        ]
+      ],
+      "offset": 0,
+      "n": 4,
+      "efforts": [
+        "low"
+      ],
+      "conditions": [
+        "plain"
+      ],
+      "models": [
+        "claude-fable-5-2"
+      ]
+    },
+    {
+      "name": "PLC",
+      "families": [
+        "check"
+      ],
+      "splits": [
+        "S1",
+        "S2"
+      ],
+      "cells": [
+        [
+          32,
+          6
+        ]
+      ],
+      "offset": 0,
+      "n": 4,
+      "efforts": [
+        "low"
+      ],
+      "conditions": [
+        "plain"
+      ],
+      "models": [
+        "claude-fable-5-2"
+      ]
+    }
+  ]
+}

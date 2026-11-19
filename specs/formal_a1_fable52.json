@@ -1,0 +1,15 @@
+{
+  "name": "formal_a1_fable52",
+  "pool": "pool/sql_pool_f_gold.jsonl",
+  "projection_margin": 1.1,
+  "arms": [
+    {"name": "A", "families": ["where"], "splits": ["S0", "S1", "S2"], "cells": [[8, 12], [32, 6]],
+     "offset": 0, "n": 40, "efforts": ["medium"], "conditions": ["plain"], "models": ["claude-fable-5-2"]},
+    {"name": "A64", "families": ["where"], "splits": ["S0", "S1", "S2"], "cells": [[64, 6]],
+     "offset": 0, "n": 20, "efforts": ["medium"], "conditions": ["plain"], "models": ["claude-fable-5-2"]},
+    {"name": "C", "families": ["check"], "splits": ["S1", "S2"], "cells": [[32, 6]],
+     "offset": 0, "n": 40, "efforts": ["medium"], "conditions": ["plain"], "models": ["claude-fable-5-2"]},
+    {"name": "W", "task": "write", "write_pool": "pool/write_f/items_write.jsonl",
+     "efforts": ["medium"], "conditions": ["plain", "bare"], "models": ["claude-fable-5-2"]}
+  ]
+}

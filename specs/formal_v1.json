@@ -1,0 +1,28 @@
+{
+  "name": "formal_v1",
+  "pool": "pool/sql_pool_f_gold.jsonl",
+  "projection_margin": 1.2,
+  "arms": [
+    {"name": "A", "families": ["where"], "splits": ["S0", "S1", "S2"], "cells": [[8, 12], [32, 6]],
+     "offset": 0, "n": 40, "efforts": ["medium"], "conditions": ["plain"],
+     "models": ["claude-haiku-5-5", "claude-sonnet-5-5", "claude-opus-5-5"]},
+    {"name": "A64", "families": ["where"], "splits": ["S0", "S1", "S2"], "cells": [[64, 6]],
+     "offset": 0, "n": 20, "efforts": ["medium"], "conditions": ["plain"],
+     "models": ["claude-haiku-5-5", "claude-sonnet-5-5", "claude-opus-5-5"]},
+    {"name": "C", "families": ["check"], "splits": ["S1", "S2"], "cells": [[32, 6]],
+     "offset": 0, "n": 40, "efforts": ["medium"], "conditions": ["plain"],
+     "models": ["claude-haiku-5-5", "claude-sonnet-5-5", "claude-opus-5-5"]},
+    {"name": "E", "families": ["notin", "join", "agg"], "splits": ["S1", "S2"],
+     "offset": 0, "n": 40, "efforts": ["medium"], "conditions": ["plain"],
+     "models": ["claude-haiku-5-5", "claude-sonnet-5-5", "claude-opus-5-5"]},
+    {"name": "R", "families": ["where"], "splits": ["S1", "S2"], "cells": [[8, 12], [32, 6]],
+     "offset": 0, "n": 20, "efforts": ["medium"], "conditions": ["rules"],
+     "models": ["claude-haiku-5-5", "claude-sonnet-5-5", "claude-opus-5-5"]},
+    {"name": "F", "families": ["where"], "splits": ["S1", "S2"], "cells": [[8, 12], [32, 6]],
+     "offset": 0, "n": 20, "efforts": ["medium"], "conditions": ["plain"],
+     "models": ["claude-fable-5-1"]},
+    {"name": "W", "task": "write", "write_pool": "pool/write_f/items_write.jsonl",
+     "efforts": ["medium"], "conditions": ["plain", "bare"],
+     "models": ["claude-haiku-5-5", "claude-sonnet-5-5", "claude-opus-5-5"]}
+  ]
+}
